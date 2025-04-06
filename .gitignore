@@ -10,9 +10,41 @@ __pycache__/
 env/
 build/
 develop-eggs/
+
 dist/
 downloads/
 eggs/
+.eggs-info/
+lib2to3/
+lib-dynload/
+pip-wheel-metadata/
+*.egg-info/
+*.egg-link
+MANIFEST
+
+# Python virtual environments
+venv/
+ENV/
+
+
+# Pytest
+.cache
+.pytest_cache
+
+# Pyenv
+.python-version
+
+# VS Code settings
+.vscode/settings.json
+
+# Environments created by conda or virtualenv
+.envrc
+.venvrc
+
+# pipenv
+Pipfile.lock
+
+# Python egg cache directory (contains eggs)
 .eggs/
 lib/
 lib64/
